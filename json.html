@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<script type="text/javascript">
+
+function AjaxRequest(){
+ var activexmodes=["Msxml2.XMLHTTP", "Microsoft.XMLHTTP"]; //activeX versions to check for in IE
+ if (window.ActiveXObject){ //Test for support for ActiveXObject in IE first (as XMLHttpRequest in IE7 is broken)
+  for (var i=0; i<activexmodes.length; i++){
+   try{
+    return new ActiveXObject(activexmodes[i]);
+
+   }
+   catch(e){
+    //suppress error
+   }
+  }
+ }
+ else if (window.XMLHttpRequest) // if Mozilla, Safari etc
+  return new XMLHttpRequest();
+ else
+  return false;
+}
+
+</script>
+<title>Retrieving Json FILE</title>
+</head>
+<body>
+<span>Demo:</span>
+<div id="result"></div>
+
+<script type="text/javascript">
+function getJSON (file, callback)
+{
+	var request = AjaxRequest();
+	request.onreadystatechange = function()
+	{
+		if(request.readyState==4 && request.status==200)
+		{
+			callback(request.responseText);
+		}
+		else{
+			//alert("request.readyState " + request.readyState + " request.status "+ request.status);
+		}
+	}
+	request.open("GET", file, true);
+	request.send();
+}
+
+getJSON("javascriptkit.json", function(data) { 
+  //use data, your json object/data
+  var jsondata=eval("("+data+")"); //retrieve result as an JavaScript object
+	var rssentries=jsondata.items;
+	var output='<ul>';
+	for (var i=0; i<rssentries.length; i++) {
+		output+='<li>';
+		output+='<a href="'+rssentries[i].link+'">';
+		output+=rssentries[i].title+'</a>';
+		output+='</li>';
+	}
+	output+='</ul>';
+	document.getElementById("result").innerHTML=output;
+	//alert("it is running");
+});
+</script>
+
+
+</body>
+</html>

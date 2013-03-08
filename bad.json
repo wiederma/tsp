@@ -1,0 +1,84 @@
+{
+	items: [
+		{
+			name: "Bad Forstenrieder Park",
+			link: "http://www.swm.de/privatkunden/m-baeder/schwimmen/hallenbaeder/bad-forstenrieder-park.html",
+			adresse: "Stäblistraße 27 b <br> 81476 München",
+			stadtteil: "Forstenried",
+			öffnungszeiten: "Mo: 	    8.00 - 18.00 Uhr <br> Di - So: 8.00 - 22.00 Uhr",
+			pic: "http://www.swm.de/dms/swm/bilder/privatkunden/m-baeder/bilder-liste/bad-forstenrieder-park2.jpg"
+		},
+		{
+			name: "Bad Giesing-Harlaching",
+			link: "http://www.swm.de/privatkunden/m-baeder/schwimmen/hallenbaeder/bad-giesing-harlaching.html",
+			adresse: "Klausener Straße 22 <br> 81547 München",
+			stadtteil: "Giesing",
+			öffnungszeiten: "Das Bad ist voraussichtlich bis Frühjahr 2013 wegen Sanierungsarbeiten geschlossen",
+			pic: "http://www.swm.de/dms/swm/bilder/privatkunden/m-baeder/bilder-liste/bad-giesing-harlaching2.jpg"
+		},
+		{
+			name: "Cosimawellenbad",
+			link: "http://www.swm.de/privatkunden/m-baeder/schwimmen/hallenbaeder/cosima-wellenbad.html",
+			adresse: "Cosimastraße 5 <br> 81925 München",
+			stadtteil: "Bogenhausen",
+			öffnungszeiten: "Täglich: 7.30 - 23.00 Uhr",
+			pic: "http://www.swm.de/dms/swm/bilder/privatkunden/m-baeder/bilder-liste/cosimawellenbad2.jpg"
+		},
+		{
+			name: "Dante-Winter-Warmfreibad",
+			link: "http://www.swm.de/privatkunden/m-baeder/schwimmen/freibaeder/dante-winter-warmfreibad.html",
+			adresse: "Postillonstraße 17 <br> 80637 München",
+			stadtteil: "Neuhausen",
+			öffnungszeiten: "Ganzjährig geöffnetes Freibad <br> Täglich außer Mi: 7.30 - 23.00 Uhr <br> Mi: 7.00 - 23.00 Uhr",
+			pic: "http://www.swm.de/dms/swm/bilder/privatkunden/m-baeder/bilder-liste/dante-winter-freibad2.jpg"
+		},
+		{
+			name: "Michaelibad",
+			link: "http://www.swm.de/privatkunden/m-baeder/schwimmen/hallenbaeder/michaeli-hallenbad.html",
+			adresse: "Heinrich-Wieland-Straße 24 <br> 81735 München",
+			stadtteil: "Ramersdorf",
+			öffnungszeiten: "Täglich: 7.30 - 23.00 Uhr",
+			pic: "http://www.swm.de/dms/swm/bilder/privatkunden/m-baeder/bilder-liste/michaeli-hallenbad2.jpg"
+		},
+		{
+			name: "Müller’sches Volksbad",
+			link: "http://www.swm.de/privatkunden/m-baeder/schwimmen/hallenbaeder/volksbad.html",
+			adresse: "Rosenheimer Straße 1 <br> 81667 München",
+			stadtteil: "Haidhausen",
+			öffnungszeiten: "Täglich: 7.30 - 23.00 Uhr <br> Mo: Große Halle nur bis 17.00 Uhr",
+			pic: "http://www.swm.de/dms/swm/bilder/privatkunden/m-baeder/bilder-liste/volksbad2.jpg"
+		},
+		{
+			name: "Nordbad",
+			link: "http://www.swm.de/privatkunden/m-baeder/schwimmen/hallenbaeder/nordbad.html",
+			adresse: "Schleißheimer Straße 142 <br> 80797 München",
+			stadtteil: "Schwabing",
+			öffnungszeiten: "Täglich: 7.30 - 23.00 Uhr",
+			pic: "http://www.swm.de/dms/swm/bilder/privatkunden/m-baeder/bilder-liste/nordbad2.jpg"
+		},
+		{
+			name: "Olympia-Schwimmhalle",
+			link: "http://www.swm.de/privatkunden/m-baeder/schwimmen/hallenbaeder/olympia-schwimmhalle.html",
+			adresse: "Coubertinplatz 1 <br> 80809 München",
+			stadtteil: "Olympiapark",
+			öffnungszeiten: "Täglich: 7.00 - 23.00 Uhr",
+			pic: "http://www.swm.de/dms/swm/bilder/privatkunden/m-baeder/bilder-liste/olympia-schwimmhalle2.jpg"
+		},
+		{
+			name: "Südbad",
+			link: "http://www.swm.de/privatkunden/m-baeder/schwimmen/hallenbaeder/suedbad.html",
+			adresse: "Valleystr. 37 <br> 81371 München",
+			stadtteil: "Sendling",
+			öffnungszeiten: "Täglich: 7.30 - 23.00 Uhr",
+			pic: "http://www.swm.de/dms/swm/bilder/privatkunden/m-baeder/bilder-liste/suedbad2.jpg"
+		},
+		{
+			name: "Westbad",
+			link: "http://www.swm.de/privatkunden/m-baeder/schwimmen/hallenbaeder/westbad.html",
+			adresse: "Weinbergerstraße 11 <br> 81241 München",
+			stadtteil: "Pasing",
+			öffnungszeiten: "Täglich: 7.30 - 23.00 Uhr",
+			pic: "http://www.swm.de/dms/swm/bilder/privatkunden/m-baeder/bilder-liste/westbad2.jpg"
+		}
+	]
+}
