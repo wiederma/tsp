@@ -4,7 +4,6 @@ function AjaxRequest(){
   for (var i=0; i<activexmodes.length; i++){
    try{
     return new ActiveXObject(activexmodes[i]);
-
    }
    catch(e){
     //suppress error
