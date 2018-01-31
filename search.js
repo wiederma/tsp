@@ -73,7 +73,6 @@ function codeAddress2(element) {
 	      element.geometry = results[0].geometry.location;
       }
 
-
       var content = '<h3><a href="'+element.link+'" target="_blank">' + element.name + '</a></h3><div><img src="'+element.pic+'" height="68" width="120"></div><ul>' + '<li>' + element.stadtteil + '</li>' + '<li>' + element.adresse + '</li>' + '<li>' + element.öffnungszeiten + '</li>' + '<li>' + element.geometry + '</li>' + '</ul>';
       infoWindow.setContent(content);
       infoWindow.open(map, marker);
